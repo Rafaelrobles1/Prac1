@@ -1,0 +1,14 @@
+﻿-- Database: nombres
+
+-- DROP DATABASE nombres;
+
+CREATE DATABASE nombres
+  WITH OWNER = postgres
+       ENCODING = 'UTF8'
+       TABLESPACE = pg_default
+       LC_COLLATE = 'es_MX.UTF-8'
+       LC_CTYPE = 'es_MX.UTF-8'
+       CONNECTION LIMIT = -1;
+
+COMMENT ON DATABASE nombres
+  IS 'Mi primera tabla';
